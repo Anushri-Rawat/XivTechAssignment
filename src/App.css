@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: serif !important;
+}
+body {
+  font-family: serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+a {
+  text-decoration: none !important;
+}
+.touchBtn {
+  font-size: 1rem;
+  height: 3.625rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid transparent;
+  text-decoration: none;
+  background-color: #000;
+  padding: 0 3rem;
+  border-radius: 2px;
+  font-weight: 500;
+  transition: all 0.25s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  font-family: "Avenir Next", Arial, sans-serif;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 2rem;
+}
+.title {
+  padding: 3% 5%;
+}
+main {
+  padding: 5% 3%;
+}
+@media (min-width: 1500px) {
+  .title {
+    padding: 3% 18%;
+  }
+  main {
+    padding: 5% 18%;
+  }
+}

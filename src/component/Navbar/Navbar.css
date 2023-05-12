@@ -1,0 +1,31 @@
+.nav {
+  min-height: 80px;
+  padding-top: 0.5%;
+  background-color: #fff;
+  box-shadow: 0 0 4px grey;
+}
+ul {
+  list-style: none;
+}
+.nav-item {
+  color: #000;
+  font-size: 19px;
+  cursor: pointer;
+}
+.request-btn {
+  font-size: 1rem;
+  height: 100%;
+  padding: 0.7rem 1.1rem;
+  background-color: #fff;
+  font-weight: bolder;
+  cursor: pointer;
+  color: #2272fb;
+  border: 2px solid #2272fb;
+  letter-spacing: 2px;
+  border-radius: 3px;
+}
+@media (max-width: 780px) {
+  .nav {
+    padding: 0.5% 3%;
+  }
+}
